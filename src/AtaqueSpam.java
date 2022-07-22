@@ -15,7 +15,7 @@ public class AtaqueSpam {
 		System.setProperty("webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
-		int x = 20;
+		int x = 1;
 		String url = "https://www.automationexercise.com/login";
 
 		// Registrarse
@@ -36,7 +36,7 @@ public class AtaqueSpam {
 			Thread.sleep(2000);
 			// Tocar el botón correcto
 			List<WebElement> buttoms = driver.findElements(By.className("btn-default"));
-			buttoms.get(1).click();
+			//buttoms.get(1).click();
 
 			// *******************************************//
 
@@ -97,7 +97,7 @@ public class AtaqueSpam {
 	public static String email(int x) {
 
 		int j = 1;
-		String email = "@emailfake.com";
+		String email = "@emailfake.net";
 
 		while (true) {
 
