@@ -36,7 +36,7 @@ public class AtaqueSpam {
 			Thread.sleep(2000);
 			// Tocar el botón correcto
 			List<WebElement> buttoms = driver.findElements(By.className("btn-default"));
-			//buttoms.get(1).click();
+			buttoms.get(1).click();
 
 			// *******************************************//
 
