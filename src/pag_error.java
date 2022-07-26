@@ -23,14 +23,14 @@ public class pag_error {
 		driver.findElement(By.className("fa-plus-square")).click();
 		Thread.sleep(2000);
 
-		// Ingresar una cantidad del producto y añadirlo al carrito.
+		// Ingresar una cantidad del producto y aï¿½adirlo al carrito.
 
 		driver.findElement(By.id("quantity")).sendKeys("1000000000000000000");
 		Thread.sleep(2000);
 		driver.findElement(By.className("cart")).click();
 		Thread.sleep(2000);
 
-		// Oprimir el botón de "Seguir comprando".
+		// Oprimir el botï¿½n de "Seguir comprando".
 
 		driver.findElement(By.className("btn-block")).click();
 		Thread.sleep(2000);
@@ -51,7 +51,7 @@ public class pag_error {
 		login.get(1).click();
 		Thread.sleep(2000);
 
-		// Ingresar el correo y contraseña y oprimir "login"
+		// Ingresar el correo y contraseï¿½a y oprimir "login"
 
 		List<WebElement> emails = driver.findElements(By.name("email"));
 		emails.get(0).sendKeys("prueba.123@gmail.com");
