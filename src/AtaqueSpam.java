@@ -1,6 +1,5 @@
 import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -97,7 +96,7 @@ public class AtaqueSpam {
 	public static String email(int x) {
 
 		int j = 1;
-		String email = "@emailfake.net";
+		String email = "@emailfake.nett";
 
 		while (true) {
 
